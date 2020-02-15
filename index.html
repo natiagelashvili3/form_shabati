@@ -10,19 +10,21 @@
     
     <div class="form-container">
         <h1>Log in</h1>
-        <form>
+        <div id="success-message"></div>
+        <form onsubmit="return false" id="form">
             <div>
                 <label>Username</label>
-                <input type="text">
+                <input type="text" id="username">
             </div>
             <div>
                 <label>Password</label>
-                <input type="password">
+                <input type="password" id="password">
             </div>
-            <button>Log in</button>
+            <button id="form-btn">Log in</button>
+            <div id="error-msg"></div>
         </form>
     </div>
     
-
+    <script src="script.js"></script>
 </body>
 </html>
