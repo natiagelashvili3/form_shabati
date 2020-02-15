@@ -48,3 +48,6 @@ form input{
     width: 100%;
     
 }
+#error-msg {
+    margin-top: 20px;
+}
